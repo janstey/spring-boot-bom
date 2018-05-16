@@ -165,16 +165,6 @@
     <openshift-client.version>2.4.1</openshift-client.version>
     <kotlin.version>1.2.20</kotlin.version>
 
-
-    <!-- Opentracing -->
-    <opentracing.version>0.31.0</opentracing.version>
-    <opentracing.contrib-java-cloud.version>0.1.0</opentracing.contrib-java-cloud.version>
-    <opentracing.contrib-java-concurrent.version>0.1.0</opentracing.contrib-java-concurrent.version>
-    <opentracing.contrib-java-jdbc.version>0.0.6</opentracing.contrib-java-jdbc.version>
-    <opentracing.contrib-opentracing-spring-web.version>0.1.0</opentracing.contrib-opentracing-spring-web.version>
-    <opentracing.contrib-opentracing-spring-jms.version>0.0.5</opentracing.contrib-opentracing-spring-jms.version>
-    <opentracing.contrib-jaxrs2.version>0.1.1</opentracing.contrib-jaxrs2.version>
-
     <!-- Hibernate -->
     <byte-buddy.version>1.6.14</byte-buddy.version> <!-- For Hibernate entity-manager -->
     <el-api.version>2.2</el-api.version> <!-- For Hibernate core -->
@@ -186,12 +176,12 @@
     <jandex.version>2.0.0.Final</jandex.version> <!-- For Hibernate core -->
 
     <!-- Spring Ecosystem -->
-    <spring-boot.version>2.0.0.RC1</spring-boot.version>
-    <spring-cloud-config.version>2.0.0.M5</spring-cloud-config.version>
-    <spring-cloud-netflix.version>2.0.0.M5</spring-cloud-netflix.version>
-    <spring-cloud-sleuth.version>2.0.0.M5</spring-cloud-sleuth.version>
+    <spring-boot.version>2.0.2.RELEASE</spring-boot.version>
+    <spring-cloud-config.version>2.0.0 RC1</spring-cloud-config.version>
+    <spring-cloud-netflix.version>2.0.0 RC1</spring-cloud-netflix.version>
+    <spring-cloud-sleuth.version>2.0.0 RC1</spring-cloud-sleuth.version>
     <spring-cloud-kubernetes.version>0.2.0.RELEASE</spring-cloud-kubernetes.version>
-    <spring-cloud-starter-stream-rabbit.version>2.0.0.M3</spring-cloud-starter-stream-rabbit.version>
+    <spring-cloud-starter-stream-rabbit.version>2.0.0.RELEASE</spring-cloud-starter-stream-rabbit.version>
 
     <!-- Spring Boot defined -->
     <antlr2.version>2.7.7</antlr2.version> <!-- For Hibernate core -->
